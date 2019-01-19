@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto');
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+body{ background: url(../img/bckgrnd.png)center/cover fixed no-repeat;font-family: 'Orbitron', sans-serif;}
+.main{ background: #ccc; width: 370px; height: 175px; margin: 100px auto; position: relative;}
+.badge{
+    width: 96px;
+  background-color: #ec4b3c;
+  color: #fff;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 40%;
+
+}
+
+.main > .clock{
+    background: #ebebeb;
+    text-align: center;
+    font-size: 55px;
+    height: 80%;
+    width: 90%;
+    font-family: sans-serif, orbitron;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 35px;
+    top: 20px;
+    left: 20px;
+  }
